@@ -13,10 +13,7 @@
 
 
 
-
 public class ClassTriggerHandler {
-    
-    
     
     Public static void CountOfNumberofClasses(List<Class__c> newClasses, Map<id, Class__c> mapOfOldClassesWithIds){
         set<id> SchoolIds = new Set<id>();
@@ -28,9 +25,7 @@ public class ClassTriggerHandler {
                 }
             }
 
-
-
-
+//Prashant Saraswat
 
             else {
                 if(cl.School__c != NULL) {
