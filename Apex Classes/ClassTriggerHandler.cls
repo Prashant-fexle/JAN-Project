@@ -48,7 +48,8 @@ public class ClassTriggerHandler {
                 }
                 
             }
-//CONFORMED First Pull Request
+//CONFORMED First Pull Request 
+// second Merege Request
              List<School__c> listOfSchoolsToBeUpdated = new List<School__c>();
         for(id scId :mapOfSchoolIdsWithNumberOfClasses.keySet()) {
             School__c sc = new School__c();
